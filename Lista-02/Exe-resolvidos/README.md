@@ -45,13 +45,16 @@ Solução:
 ###### FIM_ALGORITMO.
 
 
-2. Faça um programa que receba três notas de um aluno, calcule e mostre a média aritmética e a mensagem
+## Questão 2.
+   Faça um programa que receba três notas de um aluno, calcule e mostre a média aritmética e a mensagem
 constante na tabela a seguir. Aos alunos que ficaram para exame, calcule e mostre a nota que deverão
 tirar para serem aprovados, considerando que a média exigida é 6,0.
-MÉDIA aritmética mensa gem
-0,0 3,0 Reprovado
-3,0 7,0 Exame
-7,0 10,0 Aprovado
+| MÉDIA ARITMÉTICA | MENSAGEM   |
+|------------------|------------|
+| 0,0 — 3,0        | Reprovado  |
+| 3,0 — 7,0        | Exame      |
+| 7,0 — 10,0       | Aprovado   |
+
 
 Solução:
 ###### ALGORITMO
@@ -81,7 +84,8 @@ Solução:
 ###### FIM_ALGORITMO.
 
 
-3. Faça um programa que receba dois números e mostre o maior.
+## Questão 3.
+  Faça um programa que receba dois números e mostre o maior.
 
 Solução:
 ###### ALGORITMO
@@ -99,7 +103,8 @@ Solução:
 ###### FIM_ALGORITMO.
 
 
-4. Faça um programa que receba três números e mostre-os em ordem crescente. Suponha que o usuário
+## Questão 4.
+Faça um programa que receba três números e mostre-os em ordem crescente. Suponha que o usuário
 digitará três números diferentes.
 Solução:
 ###### ALGORITMO
@@ -126,7 +131,8 @@ Solução:
 
 
 
-5. Faça um programa que receba três números obrigatoriamente em ordem crescente e um quarto núme-
+## Questão 5.
+Faça um programa que receba três números obrigatoriamente em ordem crescente e um quarto núme-
 ro que não siga essa regra. Mostre, em seguida, os quatro números em ordem decrescente. Suponha
 
 que o usuário digitará quatro números diferentes.
@@ -151,7 +157,8 @@ Solução:
 ###### ENTÃO ESCREVA “A ordem decrescente é: “,num3,“-”,num2,“-”,num1,“-”,num4
 ###### FIM_ALGORITMO.
 
-6. Faça um programa que receba um número inteiro e verifique se é par ou ímpar.
+## Questão 6.
+Faça um programa que receba um número inteiro e verifique se é par ou ímpar.
 
 Solução:
 ###### ALGORITMO
@@ -165,15 +172,18 @@ Solução:
 ###### FIM_ALGORITMO.
 
 
-7. Faça um programa que receba quatro valores: I, A, B e C. Desses valores, I é inteiro e positivo, A, B e
+## Questão 7.
+Faça um programa que receba quatro valores: I, A, B e C. Desses valores, I é inteiro e positivo, A, B e
 C são reais. Escreva os números A, B e C obedecendo à tabela a seguir.
 Suponha que o valor digitado para I seja sempre um valor válido, ou seja, 1, 2 ou 3, e que os números
 digitados sejam diferentes um do outro.
 
-VALor dE i ForMA A EsCrEVEr
-1 A, B e C em ordem crescente.
-2 A, B e C em ordem decrescente.
-3 O maior fica entre os outros dois números.
+| VALOR DE I | FORMA A ESCREVER                                |
+|------------|--------------------------------------------------|
+| 1          | A, B e C em ordem crescente                      |
+| 2          | A, B e C em ordem decrescente                    |
+| 3          | O maior fica entre os outros dois números       |
+
 
 Solução:
 ###### ALGORITMO
@@ -230,7 +240,8 @@ Solução:
 ###### FIM
 ###### FIM_ALGORITMO.
 
-8. Faça um programa que mostre o menu de opções a seguir, receba a opção do usuário e os dados neces-
+## Questão 8.
+Faça um programa que mostre o menu de opções a seguir, receba a opção do usuário e os dados neces-
 sários para executar cada operação.
 
 Menu de opções:
@@ -268,7 +279,8 @@ Solução:
 
 
 
-9. Faça um programa que mostre a data e a hora do sistema nos seguintes formatos: DD/MM/AAAA –
+## Questão 9.
+Faça um programa que mostre a data e a hora do sistema nos seguintes formatos: DD/MM/AAAA –
 mês por extenso e hora:minuto.
 Solução:
 ###### ALGORITMO
@@ -311,7 +323,8 @@ Solução:
 ###### ESCREVA hora, “:” , min
 ###### FIM_ALGORITMO.
 
-10. Faça um programa que determine a data cronologicamente maior entre duas datas fornecidas pelo
+## Questão 10.
+Faça um programa que determine a data cronologicamente maior entre duas datas fornecidas pelo
 usuário. Cada data deve ser composta por três valores inteiros, em que o primeiro representa o dia, o
 segundo, o mês e o terceiro, o ano.
 
@@ -350,7 +363,8 @@ Solução:
 ###### FIM_ALGORITMO.
 
 
-11. Faça um programa que receba a hora do início de um jogo e a hora do término (cada hora é composta
+## Questão 11.
+Faça um programa que receba a hora do início de um jogo e a hora do término (cada hora é composta
 por duas variáveis inteiras: hora e minuto). Calcule e mostre a duração do jogo (horas e minutos),
 sabendo que o tempo máximo de duração do jogo é de 24 horas e que ele pode começar em um dia e
 terminar no dia seguinte.
@@ -381,15 +395,18 @@ Solução:
 ###### FIM_ALGORITMO.
 
 
-12. Faça um programa que receba o código correspondente ao cargo de um funcionário e seu salário atual
+## Questão 12.
+Faça um programa que receba o código correspondente ao cargo de um funcionário e seu salário atual
 e mostre o cargo, o valor do aumento e seu novo salário. Os cargos estão na tabela a seguir.
 
-Código CArgo PErCENTuAL
-1 Escriturário 50%
-2 Secretário 35%
-3 Caixa 20%
-4 Gerente 10%
-5 Diretor Não tem aumento
+| CÓDIGO | CARGO       | PERCENTUAL         |
+|--------|-------------|--------------------|
+| 1      | Escriturário| 50%                |
+| 2      | Secretário  | 35%                |
+| 3      | Caixa       | 20%                |
+| 4      | Gerente     | 10%                |
+| 5      | Diretor     | Não tem aumento    |
+
 
 Solução:
 ###### ALGORITMO
@@ -445,7 +462,8 @@ Solução:
 ###### FIM_ALGORITMO.
 
 
-13. Faça um programa que apresente o menu a seguir, permita ao usuário escolher a opção desejada, re-
+## Questão 13.
+Faça um programa que apresente o menu a seguir, permita ao usuário escolher a opção desejada, re-
 ceba os dados necessários para executar a operação e mostre o resultado. Verifique a possibilidade de
 
 opção inválida e não se preocupe com restrições, como salário negativo.
@@ -454,28 +472,35 @@ Menu de opções:
 2. Novo salário
 3. Classificação
 Digite a opção desejada.
+
 Na opção 1: receber o salário de um funcionário, calcular e mostrar o valor do imposto usando as regras
 a seguir.
 
-sALário PErCENTuAL do iMPosTo
-Menor que R$ 500,00 5%
-De R$ 500,00 (inclusive) a R$ 850,00 (inclusive) 10%
-Acima de R$ 850,00 15%
+| SALÁRIO                                     | PERCENTUAL DO IMPOSTO |
+|--------------------------------------------|------------------------|
+| Menor que R$ 500,00                         | 5%                     |
+| De R$ 500,00 (inclusive) a R$ 850,00        | 10%                    |
+| Acima de R$ 850,00                          | 15%                    |
+
 
 Na opção 2: receber o salário de um funcionário, calcular e mostrar o valor do novo salário, usando as
 regras a seguir.
 
-sALário AuMENTo
-Maior que R$ 1.500,00 R$ 25,00
-De R$ 750,00 (inclusive) a R$ 1.500,00 (inclusive) R$ 50,00
-De R$ 450,00 (inclusive) a R$ 750,00 R$ 75,00
-Menor que R$ 450,00 R$ 100,00
+| SALÁRIO                                             | AUMENTO      |
+|-----------------------------------------------------|--------------|
+| Maior que R$ 1.500,00                               | R$ 25,00     |
+| De R$ 750,00 (inclusive) a R$ 1.500,00 (inclusive)   | R$ 50,00     |
+| De R$ 450,00 (inclusive) a R$ 750,00                 | R$ 75,00     |
+| Menor que R$ 450,00                                  | R$ 100,00    |
+
 
 Na opção 3: receber o salário de um funcionário e mostrar sua classificação usando a tabela a seguir.
 
-sALário CLAssiFiCAção
-Até R$ 700,00 (inclusive) Mal remunerado
-Maiores que R$ 700,00 Bem remunerado
+| SALÁRIO                        | CLASSIFICAÇÃO     |
+|-------------------------------|-------------------|
+| Até R$ 700,00 (inclusive)      | Mal remunerado    |
+| Maiores que R$ 700,00          | Bem remunerado    |
+
 Solução:
 ###### ALGORITMO
 ###### DECLARE op, sal, imp, aum, novo_sal NUMÉRICO
@@ -522,16 +547,20 @@ Solução:
 ###### ENTÃO ESCREVA “Opção Inválida”
 ###### FIM_ALGORITMO.
 
-14. Faça um programa que receba o salário inicial de um funcionário, calcule e mostre o novo salário,
+## Questão 14.
+Faça um programa que receba o salário inicial de um funcionário, calcule e mostre o novo salário,
 acrescido de bonificação e de auxílio escola.
-sALário BONIFICAÇão
-Até R$ 500,00 5% do salário
-Entre R$ 500,00 e R$ 1.200,00 12% do salário
-Acima de R$ 1.200,00 Sem bonificação
+| SALÁRIO                            | BONIFICAÇÃO         |
+|-----------------------------------|---------------------|
+| Até R$ 500,00                     | 5% do salário       |
+| Entre R$ 500,00 e R$ 1.200,00     | 12% do salário      |
+| Acima de R$ 1.200,00              | Sem bonificação     |
 
-sALário AuxíLio EsCoLA
-Até R$ 600,00 R$ 150,00
-Acima de R$ 600,00 R$ 100,00
+| SALÁRIO               | AUXÍLIO ESCOLA |
+|-----------------------|----------------|
+| Até R$ 600,00         | R$ 150,00       |
+| Acima de R$ 600,00    | R$ 100,00       |
+
 
 Solução:
 ###### ALGORITMO
@@ -552,33 +581,39 @@ Solução:
 
 
 
-15. Faça um programa que receba o valor do salário mínimo, o número de horas trabalhadas, o número
+## Questão 15.
+Faça um programa que receba o valor do salário mínimo, o número de horas trabalhadas, o número
 de dependentes do funcionário e a quantidade de horas extras trabalhadas. Calcule e mostre o salário
 a receber do funcionário de acordo com as regras a seguir:
-■■ O valor da hora trabalhada é igual a 1/5 do salário mínimo.
+° O valor da hora trabalhada é igual a 1/5 do salário mínimo.
 
-■■ O salário do mês é igual ao número de horas trabalhadas multiplicado pelo valor da hora traba-
+° O salário do mês é igual ao número de horas trabalhadas multiplicado pelo valor da hora traba-
 lhada.
 
-■■ Para cada dependente, acrescentar R$ 32,00.
-■■ Para cada hora extra trabalhada, calcular o valor da hora trabalhada acrescida de 50%.
-■■ O salário bruto é igual ao salário do mês mais o valor dos dependentes mais o valor das horas
+° Para cada dependente, acrescentar R$ 32,00.
+° Para cada hora extra trabalhada, calcular o valor da hora trabalhada acrescida de 50%.
+° O salário bruto é igual ao salário do mês mais o valor dos dependentes mais o valor das horas
 extras.
-■■ Calcular o valor do imposto de renda retido na fonte de acordo com a tabela a seguir:
+° Calcular o valor do imposto de renda retido na fonte de acordo com a tabela a seguir:
 
 
-irrF sALári o BruTo
-Isento Inferior a R$ 200,00
-10% De R$ 200,00 até R$ 500,00
-20% Superior a R$ 500,00
+| IRRF    | SALÁRIO BRUTO                          |
+|---------|----------------------------------------|
+| Isento  | Inferior a R$ 200,00                   |
+| 10%     | De R$ 200,00 até R$ 500,00             |
+| 20%     | Superior a R$ 500,00                   |
+
+
 ■■ O salário líquido é igual ao salário bruto menos IRRF.
 ■■ A gratificação é de acordo com a tabela a seguir:
 
-sALário Líquido grATiFiCAção
-Até R$ 350,00 R$ 100,00
-Superior a R$ 350,00 R$ 50,00
+| SALÁRIO LÍQUIDO        | GRATIFICAÇÃO  |
+|------------------------|---------------|
+| Até R$ 350,00          | R$ 100,00     |
+| Superior a R$ 350,00   | R$ 50,00      |
 
-■■ O salário a receber do funcionário é igual ao salário líquido mais a gratificação.
+°O salário a receber do funcionário é igual ao salário líquido mais a gratificação.
+
 Solução:
 ###### ALGORITMO
 ###### DECLARE sal_min, nht, ndep, nhet NUMÉRICO
@@ -606,13 +641,16 @@ Solução:
 ###### FIM_ALGORITMO.
 
 
-16. Um supermercado deseja reajustar os preços de seus produtos usando o seguinte critério: o produto
+## Questão 16.
+Um supermercado deseja reajustar os preços de seus produtos usando o seguinte critério: o produto
 poderá ter seu preço aumentado ou diminuído. Para o preço ser alterado, o produto deve preencher
 pelo menos um dos requisitos a seguir:
-VENdA MédiA MENsAL PrEço ATuAL % dE AuMENTo % dE diMiNuição
-< 500 < R$ 30,00 10 –
->= 500 e < 1.200 >= R$ 30,00 e < R$ 80,00 15 –
->= 1.200 >= R$ 80,00 – 20
+| VENDA MÉDIA MENSAL | PREÇO ATUAL                   | % DE AUMENTO | % DE DIMINUIÇÃO |
+|--------------------|-------------------------------|--------------|-----------------|
+| < 500              | < R$ 30,00                    | 10%          | -               |
+| 500 ≤ venda < 1200 | R$ 30,00 ≤ preço < R$ 80,00   | 15%          | -               |
+| ≥ 1200             | ≥ R$ 80,00                    | -            | 20%             |
+
 Faça um programa que receba o preço atual e a venda média mensal do produto, calcule e mostre o
 novo preço.
 Solução:
@@ -630,7 +668,9 @@ Solução:
 ###### FIM_ALGORITMO.
 
 
-17. Faça um programa para resolver equações do 2o grau.
+## Questão 17.
+Faça um programa para resolver equações do 2o grau.
+
 ###### ax2
 ###### + bx + c = 0
 ###### A variável a deve ser diferente de zero.
@@ -670,14 +710,17 @@ Solução:
 ###### FIM
 ###### FIM_ALGORITMO.
 
-18. Dados três valores X, Y e Z, verifique se eles podem ser os comprimentos dos lados de um triângulo
-e, se forem, verifique se é um triângulo equilátero, isósceles ou escaleno. Se eles não formarem um
+## Questão 18.
+Dados três valores X, Y e Z, verifique se eles podem ser os comprimentos dos lados de um triângulo e, se forem, verifique se é um triângulo equilátero, isósceles ou escaleno. Se eles não formarem um
 triângulo, escreva uma mensagem. Considere que:
-■■ o comprimento de cada lado de um triângulo é menor que a soma dos outros dois lados;
-■■ chama-se equilátero o triângulo que tem três lados iguais;
-■■ denomina-se isósceles o triângulo que tem o comprimento de dois lados iguais;
-■■ recebe o nome de escaleno o triângulo que tem os três lados diferentes.
+
+° o comprimento de cada lado de um triângulo é menor que a soma dos outros dois lados;
+° chama-se equilátero o triângulo que tem três lados iguais;
+° denomina-se isósceles o triângulo que tem o comprimento de dois lados iguais;
+° recebe o nome de escaleno o triângulo que tem os três lados diferentes.
+
 Solução:
+
 ###### ALGORITMO
 ###### DECLARE x, y, z NUMÉRICO
 ###### LEIA x, y, z
@@ -697,17 +740,17 @@ Solução:
 ###### FIM_ALGORITMO.
 
 
-19. Faça um programa que receba a altura e o peso de uma pessoa. De acordo com a tabela a seguir, veri-
+## Questão 19.
+Faça um programa que receba a altura e o peso de uma pessoa. De acordo com a tabela a seguir, veri-
 fique e mostre a classificação dessa pessoa.
 
-ALTurA
+| ALTURA              | PESO                         |                         |                        |
+|---------------------|------------------------------|-------------------------|------------------------|
+|                     | ATÉ 60                       | ENTRE 60 E 90 (INCLUSIVE) | ACIMA DE 90           |
+| Menores que 1,20    | A                            | D                       | G                      |
+| De 1,20 a 1,70      | B                            | E                       | H                      |
+| Maiores que 1,70    | C                            | F                       | I                      |
 
-PEso
-
-ATé 60 ENTrE 60 E 90 (iNCLusiVE) ACiMA dE 90
-Menores que 1,20 A D G
-De 1,20 a 1,70 B E H
-Maiores que 1,70 C F I
 Solução:
 ###### ALGORITMO
 ###### DECLARE altura, peso NUMÉRICO
@@ -746,37 +789,38 @@ Solução:
 ###### FIM_ALGORITMO.
 
 
-20. Faça um programa que receba:
-■■ O código de um produto comprado, supondo que a digitação do código do produto seja sempre
+## Questão 20.
+Faça um programa que receba:
+° O código de um produto comprado, supondo que a digitação do código do produto seja sempre
 válida, isto é, um número inteiro entre 1 e 10.
-■■ O peso do produto em quilos.
+° O peso do produto em quilos.
 
-■■ O código do país de origem, supondo que a digitação do código seja sempre válida, isto é, um nú-
+° O código do país de origem, supondo que a digitação do código seja sempre válida, isto é, um nú-
 mero inteiro entre 1 e 3.
 
 Tabelas:
+### Tabela 1: Código do País de Origem e Imposto
 
-Código do PAís
-dE ori gEM iMPosTo
-1 0%
-2 15%
-3 25%
+| CÓDIGO DO PAÍS DE ORIGEM | IMPOSTO |
+|---------------------------|---------|
+| 1                         | 0%      |
+| 2                         | 15%     |
+| 3                         | 25%     |
 
-Código do
-ProduTo
+### Tabela 2: Código do Produto e Preço por Grama
 
-PrEço Por
-grAMA
-1 a 4 10
-5 a 7 25
-8 a 10 35
+| CÓDIGO DO PRODUTO | PREÇO POR GRAMA |
+|-------------------|------------------|
+| 1 a 4             | 10               |
+| 5 a 7             | 25               |
+| 8 a 10            | 35               |
+
 
 Calcule e mostre:
-■■ o peso do produto convertido em gramas;
-■■ o preço total do produto comprado;
-■■ o valor do imposto, sabendo que ele é cobrado sobre o preço total do produto comprado e depende
+° o preço total do produto comprado;
+° o valor do imposto, sabendo que ele é cobrado sobre o preço total do produto comprado e depende
 do país de origem;
-■■ o valor total, preço total do produto mais imposto.
+° o valor total, preço total do produto mais imposto.
 Solução:
 ###### ALGORITMO
 ###### DECLARE cod_prod, peso_quilos NUMÉRICO
