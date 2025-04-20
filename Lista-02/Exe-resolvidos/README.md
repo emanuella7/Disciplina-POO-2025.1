@@ -249,6 +249,7 @@ Menu de opções:
 2. Raiz quadrada de um número.
 
 Digite a opção desejada:
+
 Solução:
 ###### ALGORITMO
 ###### DECLARE num1, num2, soma, raiz, op NUMÉRICO
@@ -369,6 +370,7 @@ Faça um programa que receba a hora do início de um jogo e a hora do término (
 por duas variáveis inteiras: hora e minuto). Calcule e mostre a duração do jogo (horas e minutos),
 sabendo que o tempo máximo de duração do jogo é de 24 horas e que ele pode começar em um dia e
 terminar no dia seguinte.
+
 Solução:
 ###### ALGORITMO
 ###### DECLARE hora_i, min_i, hora_f, min_f, hora_d, min_d NUMÉRICO
