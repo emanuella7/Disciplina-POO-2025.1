@@ -247,6 +247,7 @@ sários para executar cada operação.
 Menu de opções:
 1. Somar dois números.
 2. Raiz quadrada de um número.
+
 Digite a opção desejada:
 Solução:
 ###### ALGORITMO
