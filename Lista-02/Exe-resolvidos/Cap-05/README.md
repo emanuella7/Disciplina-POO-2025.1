@@ -1,5 +1,5 @@
 
-## Questão 11.
+## Questão 01.
 Faça um programa que receba a hora do início de um jogo e a hora do término (cada hora é composta
 por duas variáveis inteiras: hora e minuto). Calcule e mostre a duração do jogo (horas e minutos),
 sabendo que o tempo máximo de duração do jogo é de 24 horas e que ele pode começar em um dia e
@@ -32,7 +32,7 @@ Solução:
 ###### FIM_ALGORITMO.
 
 
-## Questão 12.
+## Questão 02.
 Faça um programa que receba o código correspondente ao cargo de um funcionário e seu salário atual
 e mostre o cargo, o valor do aumento e seu novo salário. Os cargos estão na tabela a seguir.
 
@@ -99,7 +99,7 @@ Solução:
 ###### FIM_ALGORITMO.
 
 
-## Questão 13.
+## Questão 03.
 Faça um programa que apresente o menu a seguir, permita ao usuário escolher a opção desejada, re-
 ceba os dados necessários para executar a operação e mostre o resultado. Verifique a possibilidade de
 
@@ -184,7 +184,7 @@ Solução:
 ###### ENTÃO ESCREVA “Opção Inválida”
 ###### FIM_ALGORITMO.
 
-## Questão 14.
+## Questão 04.
 Faça um programa que receba o salário inicial de um funcionário, calcule e mostre o novo salário,
 acrescido de bonificação e de auxílio escola.
 | SALÁRIO                            | BONIFICAÇÃO         |
@@ -218,7 +218,7 @@ Solução:
 
 
 
-## Questão 15.
+## Questão 05.
 Faça um programa que receba o valor do salário mínimo, o número de horas trabalhadas, o número
 de dependentes do funcionário e a quantidade de horas extras trabalhadas. Calcule e mostre o salário
 a receber do funcionário de acordo com as regras a seguir:
@@ -278,7 +278,7 @@ Solução:
 ###### FIM_ALGORITMO.
 
 
-## Questão 16.
+## Questão 06.
 Um supermercado deseja reajustar os preços de seus produtos usando o seguinte critério: o produto
 poderá ter seu preço aumentado ou diminuído. Para o preço ser alterado, o produto deve preencher
 pelo menos um dos requisitos a seguir:
@@ -305,7 +305,7 @@ Solução:
 ###### FIM_ALGORITMO.
 
 
-## Questão 17.
+## Questão 07.
 Faça um programa para resolver equações do 2o grau.
 
 ###### ax2
@@ -347,7 +347,7 @@ Solução:
 ###### FIM
 ###### FIM_ALGORITMO.
 
-## Questão 18.
+## Questão 08.
 Dados três valores X, Y e Z, verifique se eles podem ser os comprimentos dos lados de um triângulo e, se forem, verifique se é um triângulo equilátero, isósceles ou escaleno. Se eles não formarem um
 triângulo, escreva uma mensagem. Considere que:
 
@@ -377,7 +377,7 @@ Solução:
 ###### FIM_ALGORITMO.
 
 
-## Questão 19.
+## Questão 09.
 Faça um programa que receba a altura e o peso de uma pessoa. De acordo com a tabela a seguir, veri-
 fique e mostre a classificação dessa pessoa.
 
@@ -426,7 +426,7 @@ Solução:
 ###### FIM_ALGORITMO.
 
 
-## Questão 20.
+## Questão 10.
 Faça um programa que receba:
 ° O código de um produto comprado, supondo que a digitação do código do produto seja sempre
 válida, isto é, um número inteiro entre 1 e 10.
