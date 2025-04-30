@@ -1,49 +1,52 @@
+
 package br.edu.principal;
 import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
-        Scanner dado = new Scanner(System.in);
+        int contTime, contJog, idade;
+        double peso, altura, qtde, mediaIdade, mediaAltura, porc, tot80;
 
-        int cod_prod, cod_pais;
-        double peso_quilos, peso_gramas, pre_total;
-        double imposto, valor_total, pre_grama = 0;
+        qtde = 0;
+        tot80 = 0;
+        mediaAltura = 0;
 
-        System.out.print("Digite o código do produto: ");
-        cod_prod = dado.nextInt();
+        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Digite o peso em quilos: ");
-        peso_quilos = dado.nextDouble();
+        for (contTime = 1; contTime <= 5; contTime++) {
+            mediaIdade = 0;
+            for (contJog = 1; contJog <= 11; contJog++) {
+                System.out.println("  Time " + contTime + " - Jogador #" + contJog);
+                System.out.print("Digite a idade: ");
+                idade = sc.nextInt();
+                System.out.print("Digite o peso: ");
+                peso = sc.nextDouble();
+                System.out.print("Digite a altura: ");
+                altura = sc.nextDouble();
 
-        System.out.print("Digite o código do país de origem: ");
-        cod_pais = dado.nextInt();
+                if (idade < 18) {
+                    qtde++;
+                    mediaAltura = mediaAltura + altura;
+                }
 
-        peso_gramas = peso_quilos * 1000;
-        System.out.println("Peso em gramas: " + peso_gramas);
+                mediaIdade = mediaIdade + idade;
 
-        if (cod_prod >= 1 && cod_prod <= 4) {
-            pre_grama = 10;
-        } else if (cod_prod >= 5 && cod_prod <= 7) {
-            pre_grama = 25;
-        } else if (cod_prod >= 8 && cod_prod <= 10) {
-            pre_grama = 35;
+                if (peso > 80) {
+                    tot80++;
+                }
+            }
+            mediaIdade = mediaIdade / 11;
+            System.out.println("Média de idade do time " + contTime + ": " + mediaIdade);
         }
 
-        pre_total = peso_gramas * pre_grama;
-        System.out.println("Preço total: " + pre_total);
+        System.out.println("Quantidade de jogadores com menos de 18 anos: " + qtde);
 
-        if (cod_pais == 1) {
-            imposto = 0;
-        } else if (cod_pais == 2) {
-            imposto = pre_total * 0.15;
+        if (qtde > 0) {
+            mediaAltura = mediaAltura / qtde;
         } else {
-            imposto = pre_total * 0.25;
+            mediaAltura = 0;
         }
-
-        System.out.println("Imposto: " + imposto);
-
-        valor_total = pre_total + imposto;
-        System.out.println("Valor total: " + valor_total);
-
-        dado.close();
+        System.out.println("Média da altura dos jogadores com menos de 18 anos: " + mediaAltura);
+        porc = tot80 * 100 / 55;
+        System.out.println("Porcentagem de jogadores com mais de 80kg: " + porc + "%");
     }
 }
