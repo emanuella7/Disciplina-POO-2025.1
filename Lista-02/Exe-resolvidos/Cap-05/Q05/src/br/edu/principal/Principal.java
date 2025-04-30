@@ -1,51 +1,48 @@
+
 package br.edu.principal;
 import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
-        Scanner dado = new Scanner(System.in);
+        int numTermos, i, j, expoente, fim, den = 1;
+        double x, fat, pot, s = 0;
+        int denominador = 1;
 
-        double sal_min, nht, ndep, nhet;
-        double sal_receber, vh, smes, vdep, vhe, imp;
-        double sbruto, sliq, grat;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Digite o número de termos: ");
+        numTermos = sc.nextInt();
+        System.out.print("Digite o valor de x: ");
+        x = sc.nextDouble();
 
-        System.out.print("Digite o salário mínimo: ");
-        sal_min = dado.nextDouble();
+        for (i = 1; i <= numTermos; i++) {
+            fim = denominador;
+            fat = 1;
+            for (j = 1; j <= fim; j++) {
+                fat = fat * j;
+            }
 
-        System.out.print("Digite o número de horas trabalhadas no mês: ");
-        nht = dado.nextDouble();
+            expoente = i + 1;
 
-        System.out.print("Digite o número de dependentes: ");
-        ndep = dado.nextDouble();
+            pot = 1;
+            for (j = 1; j <= expoente; j++) {
+                pot = pot * x;
+            } if (expoente % 2 == 0) {
+                s = s - (pot / fat);
+            } else {
+                s = s + (pot / fat);
+            }
 
-        System.out.print("Digite o número de horas extras trabalhadas: ");
-        nhet = dado.nextDouble();
+            if (denominador == 4) {
+                den = -1;
+            } if (denominador == 1) {
+                den = 1;
+            }
 
-        vh = sal_min / 5;
-        smes = nht * vh;
-        vdep = 32 * ndep;
-        vhe = nhet * (vh + (vh * 0.50));
-        sbruto = smes + vdep + vhe;
-
-        if (sbruto < 200) {
-            imp = 0;
-        } else if (sbruto <= 500) {
-            imp = sbruto * 0.10;
-        } else {
-            imp = sbruto * 0.20;
+            if (den == 1) {
+                denominador++;
+            } else {
+                denominador--;
+            }
         }
-
-        sliq = sbruto - imp;
-
-        if (sliq <= 350) {
-            grat = 100;
-        } else {
-            grat = 50;
-        }
-
-        sal_receber = sliq + grat;
-
-        System.out.println("Salário a receber: R$ " + sal_receber);
-
-        dado.close();
+        System.out.print("O valor da série S é: " + s);
     }
 }
