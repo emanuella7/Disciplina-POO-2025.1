@@ -1,32 +1,38 @@
+
 package br.edu.principal;
 import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
-        Scanner dado = new Scanner(System.in);
+        int n1, n2, n3, numTermos, i;
 
-        double x, y, z;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Digite o número de termos: ");
+        numTermos = sc.nextInt();
 
-        System.out.print("Digite o valor de x: ");
-        x = dado.nextDouble();
+        n1 = 2;
+        n2 = 7;
+        n3 = 3;
 
-        System.out.print("Digite o valor de y: ");
-        y = dado.nextDouble();
+        System.out.print(n1 + " - ");
+        System.out.print(n2 + " - ");
+        System.out.print(n3);
 
-        System.out.print("Digite o valor de z: ");
-        z = dado.nextDouble();
+        i = 4;
+        while (i <= numTermos){
+            n1 = n1 * 2;
+            System.out.print(" - " + n1);
+            i++;
 
-        if (x < y + z && y < x + z && z < x + y) {
-            if (x == y && y == z) {
-                System.out.println("Triângulo Equilátero");
-            } else if (x == y || x == z || y == z) {
-                System.out.println("Triângulo Isósceles");
-            } else {
-                System.out.println("Triângulo Escaleno");
+            if(i <= numTermos){
+                n2 = n2 * 3;
+                System.out.print(" - " + n2);
+                i++;
+
+            } if(i <= numTermos){
+                n3 = n3 * 4;
+                System.out.print(" - " + n3);
+                i++;
             }
-        } else {
-            System.out.println("Essas medidas não formam um triângulo");
         }
-
-        dado.close();
     }
 }
