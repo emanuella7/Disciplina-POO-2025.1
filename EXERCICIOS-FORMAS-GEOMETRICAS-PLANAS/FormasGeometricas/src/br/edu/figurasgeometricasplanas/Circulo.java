@@ -5,31 +5,30 @@ public class Circulo {
 	private double area;
 	
 	
-
-	public Circulo() {
-		raio = 0;
-		area = 0;
+	public void recebeRaio(double pRaio) {
+		raio = pRaio;
 	}
-	
-	
 
-	public void recebeRaio(double raio) {
-		this.raio = raio; 
+	public double retornaRaio() {
+		System.out.println("O valor do raio é: "+ raio);
+		return raio;
 	}
-	
+
 	public void calcArea() {
-		area = Math.PI * raio * raio;
+		double pi = 3.14;
+		area = pi * (Math.pow(raio, 2));
 	}
-	
 	public void mostrarArea() {
-		System.out.println("A área do Círculo é: " + area);
+		System.out.println("O valor da Aréa é: "+ area);		
+	}
+	public double retornaArea() {
+		System.out.println("O valor da Aréa é: "+ area);
+		return area; 
 	}
 	
-	public double mostrarAreaComRetorno () {
-		System.out.println(area);
-		return area;
+	public void listaAtributos() {
+		System.out.println("Raio: "+raio);
+		System.out.println("Aréa: "+area);
 	}
-
-
+	
 }
-
