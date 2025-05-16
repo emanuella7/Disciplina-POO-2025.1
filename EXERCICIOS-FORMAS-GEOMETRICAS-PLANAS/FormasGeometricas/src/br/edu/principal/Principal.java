@@ -17,12 +17,12 @@ public class Principal {
 		
 
 		Trapezio fg2 = new Trapezio();
-		fg2.baseMaior(9.6);
-		fg2.baseMenor(5);
-		fg2.recebeAltura(8);
+		fg2.recebaBaseMaior(9.6);
+		fg2.recebaBaseMenor(5);
+		fg2.recebaAltura(8);
 		fg2.calcArea();
 		fg2.mostrarArea();
-		recebaArea = fg2.mostraAreaComRetorno();
+		recebaArea = fg2.mostrarAreaComRetorno();
 		System.out.println("");
 		
 		Retangulo fg3 = new Retangulo();
@@ -77,11 +77,8 @@ public class Principal {
 		fg9.recebeRaio(9);
 		fg9.calcArea();
 		fg9.mostrarArea();
-		recebaArea = fg9.mostrarAreaComRetorno();
+		recebaArea = fg9.retornaArea();
 		System.out.println("");
 		
 	}
 }
-		
-		
-		
