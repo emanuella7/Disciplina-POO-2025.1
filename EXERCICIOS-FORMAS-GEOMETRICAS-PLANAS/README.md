@@ -1,10 +1,9 @@
-## 📘 Disciplina: Programação Orientada a Objetos (POO)
+## 📘 Matéria: Programação Orientada a Objetos (POO)
 
-A disciplina de Programação Orientada a Objetos (POO) 🧠💻 tem como objetivo apresentar os principais conceitos da programação baseada em objetos, como classes, objetos, herança, encapsulamento e polimorfismo 🧩.
+A matéria de Programação Orientada a Objetos (POO) 💡🖥️ tem como foco introduzir os fundamentos da programação com base em objetos, incluindo conceitos essenciais como classes, objetos, herança, encapsulamento e polimorfismo ⚙️🔄.
 
-Durante as aulas, os alunos desenvolvem atividades práticas 🛠️, como a criação de programas para o cálculo da área de formas geométricas planas 🔺🔵⬛ (triângulos, círculos, retângulos, entre outros). Cada figura é representada como uma classe, com atributos como base, altura ou raio, e métodos responsáveis por realizar os cálculos 📏✏️.
+Ao longo do curso, os estudantes realizam exercícios práticos 🧪, como a criação de aplicações simples para calcular áreas de figuras geométricas planas 🔻⚪⬜ (ex: triângulo, círculo, retângulo). Cada forma é modelada como uma classe, com atributos como altura, base ou raio, e métodos específicos para executar os cálculos 📐🖊️.
 
-Esses exercícios facilitam o entendimento da abstração, reutilização de código e da importância de um design bem estruturado na programação 👨‍💻✨. A prática constante com exemplos do cotidiano torna o aprendizado mais dinâmico e interativo 🚀🎯.
+Essas práticas ajudam a compreender melhor noções como abstração, reutilização de código e a relevância de um bom design na construção de sistemas orientados a objetos 👩‍💻🏗️. O uso de situações do cotidiano torna o aprendizado mais envolvente e acessível 🚀📚.
 
-Além disso, a disciplina reforça boas práticas de codificação 🧼🧱, incentivando a escrita de códigos limpos, modulares e de fácil manutenção. Ao final do curso, o aluno estará preparado para desenvolver aplicações orientadas a objetos de forma clara, eficiente e com aplicação no mundo real 🌍✅.
- 
+A disciplina também destaca a importância de escrever códigos bem organizados 🧹🔧, incentivando o uso de boas práticas, como modularidade e manutenção simplificada. Ao término da matéria, os alunos estarão aptos a desenvolver programas orientados a objetos com clareza, eficiência e aplicabilidade prática no dia a dia 🌐✅.
