@@ -1,104 +1,36 @@
-# Projeto: Figuras Geométricas com Programação Orientada a Objetos
+# Exercícios de Figuras Geométricas 🔵🟧▲
+Este repositório contém uma pasta dedicada aos exercícios sobre figuras geométricas. Os exercícios abordam conceitos fundamentais como:
 
-Este projeto demonstra a aplicação dos princípios da Programação Orientada a Objetos (POO) no cálculo de áreas e volumes de figuras geométricas planas e espaciais. Os conceitos são explorados através de três módulos distintos: abstração, encapsulamento e herança.
+Identificação de formas geométricas (triângulo, quadrado, retângulo, círculo, etc.)
 
----
+Cálculo de perímetros e áreas.
 
-## Conceitos de POO Utilizados
+Propriedades básicas das figuras planas.
 
-- **Abstração**: Esconde os detalhes internos das classes, expondo apenas o necessário.
-- **Encapsulamento**: Protege os atributos e permite acesso controlado via métodos públicos.
-- **Herança**: Permite a reutilização de código entre classes com hierarquia.
+# Este repositório está dividido em:
+### Figuras Geométricas 
+Contém os exercicios calculando todas as formas geométricas com abstração em forma de classe.
+### Figuras Geométricas-Herança
+Contém os exercicios calculando todas as formas geométricas planas e espaciais com herança em forma de classe.
+### Figuras Geométricas-Encapsuladas
+Contém os exercicios calculando todas as formas geométricas planas e espaciais encapsuladas em forma de classe.
 
----
+# Como acessar as quesões 
 
-## Estrutura do Projeto
+1. Clique na pasta que você deseja abrir
+2. Clique em "src"
+3. Clique em "br/edu"
+4. Depois selecione quais questões você quer acessar, formas espaciais, formas planas ou a classe principal.
 
-O projeto está dividido em três diretórios, cada um representando um conceito da POO.
+#  Diagrama
+Para cada um dos três exercícios(Abstração,Encapsulamento e Herança), foi criado um diagrama UML
 
-### 1. `figurasGeometricas - Abstração`
+- ### Abstração
 
-Demonstra a ocultação de detalhes internos das figuras, focando na interface com o usuário.
+![Formas Geométricas Planas(DIAGRAMA)](https://github.com/user-attachments/assets/2147d224-91bb-400f-866e-b4fbbbf1c57d)
 
-**Pacotes:**
-- `br.edu.principal`: Contém a classe principal com testes.
-- `br.edu.figurasgeometricasplanas`: Inclui classes abstratas e concretas.
+- ### Herança
+![image](https://github.com/user-attachments/assets/3c167b06-c19b-4da7-b848-a0319ad28a4d)
 
-**Diagrama UML (Abstração):**  
-![Abstração](https://github.com/user-attachments/assets/680759c0-c425-4bc8-935a-736292f7537c)
-
----
-
-### 2. `figurasGeometricas - Encapsulamento`
-
-Exemplifica a proteção de atributos com acesso controlado por métodos `get` e `set`.
-
-**Pacotes:**
-- `br.edu.principal`: Classe principal para execução.
-- `br.edu.figurasgeometricasplanas`: Triângulo, Retângulo, etc.
-- `br.edu.figurasgeometricasespacias`: Esfera, Cubo, Cone, etc.
-
-**Diagrama UML (Encapsulamento):**  
-![Encapsulamento](https://github.com/user-attachments/assets/97535320-bfa7-4d7c-af14-a0544285c153)
-
----
-
-### 3. `figurasGeometricas - Herança`
-
-Explora a herança entre superclasses e subclasses para evitar redundância de código.
-
-**Pacotes:**
-- `br.edu.principal`: Classe principal do módulo.
-- `br.edu.figurasgeometricasplanas`: Subclasses que herdam de `FiguraPlana`.
-- `br.edu.figurasgeometricasespacias`: Subclasses de `FiguraEspacial`.
-
-**Diagrama UML (Herança):**  
-![Herança](https://github.com/user-attachments/assets/d94644c8-ee11-4d58-852b-f6f6184e3bed)
-
----
-
-## Figuras Geométricas Implementadas
-
-### Figuras Planas
-
-- Triângulo
-- Retângulo
-- Quadrado
-- Círculo
-- Trapézio
-- Paralelogramo
-- Losango
-- Pentágono
-- Hexágono
-
-### Figuras Espaciais
-
-- Cubo
-- Prisma
-- Esfera
-- Pirâmide
-- Cone
-- Cilindro
-- Paralelepípedo
-- Tetraedro
-
----
-
-## Estrutura das Classes
-
-Cada classe segue a mesma estrutura:
-
-- Atributos privados
-- Construtor com parâmetros
-- Métodos públicos:
-  - `calcArea()`
-  - `calcVolume()` (apenas para figuras espaciais)
-
----
-
-## Como Executar o Projeto
-
-1. Clone o repositório com o seguinte comando:
-
-   ```bash
-   git clone https://github.com/Jotinha085/figurasGeometricasPOO.git
+- ### Encapsulamento
+![image](https://github.com/user-attachments/assets/5c854b5b-432f-4ecb-9249-a3dd0fefd9b1)
